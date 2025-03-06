@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Services</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f9fa;
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007BFF;
+        }
+        .service {
+            background: #ffffff;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .service:hover {
+            transform: scale(1.05);
+        }
+        .service img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .pricing {
+            font-weight: bold;
+            color: #28a745;
+            font-size: 1.2em;
+        }
+        .contact-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: background 0.3s ease-in-out;
+        }
+        .contact-btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SOCIAL MEDIA OPTIONS</h1>
+        <div class="service">
+            <img src="logo-design.jpg" alt="Logo Design">
+            <h2>Logo and Corporate Image Creation</h2>
+            <p>Graphic identity manual and basic brand applications.</p>
+            <p class="pricing">$95</p>
+        </div>
+        <div class="service">
+            <img src="web-design.jpg" alt="Web Design">
+            <h2>Web Design</h2>
+            <p>Domain (yourcompany.com) and Hosting for 12 months.<br>Responsive website with mission, vision, gallery, and contact section.</p>
+            <p class="pricing">$350</p>
+        </div>
+        <div class="service">
+            <img src="social-media.jpg" alt="Fan Page Creation">
+            <h2>Fan Page Creation</h2>
+            <p>Facebook, TikTok, LinkedIn</p>
+            <p class="pricing">$95</p>
+        </div>
+        <h2>Digital Marketing Plan</h2>
+        <div class="service">
+            <img src="marketing-basic.jpg" alt="Basic Plan">
+            <h3>Basic Plan</h3>
+            <p>3 weekly posts, simple content design, basic interactions.</p>
+            <p class="pricing">$125 USD/month</p>
+        </div>
+        <div class="service">
+            <img src="marketing-intermediate.jpg" alt="Intermediate Plan">
+            <h3>Intermediate Plan</h3>
+            <p>5-6 weekly posts, trend-based strategy, increased interaction.</p>
+            <p class="pricing">$350 USD/month</p>
+        </div>
+        <div class="service">
+            <img src="marketing-advanced.jpg" alt="Advanced Plan">
+            <h3>Advanced Plan</h3>
+            <p>Daily content, engagement campaigns, influencer strategies.</p>
+            <p class="pricing">$700 USD/month</p>
+        </div>
+        <a href="#" class="contact-btn">Contact Us</a>
+    </div>
+    <script>
+        document.querySelector('.contact-btn').addEventListener('click', function() {
+            alert('Contact us at info@yourcompany.com');
+        });
+    </script>
+</body>
+</html>
